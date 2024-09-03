@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5477467A2C871EC30007A079 /* ZKCompoments in Frameworks */ = {isa = PBXBuildFile; productRef = 547746792C871EC30007A079 /* ZKCompoments */; };
 		54E6A8412C87067900AA6A64 /* ExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E6A8402C87067900AA6A64 /* ExampleAppApp.swift */; };
 		54E6A8432C87067900AA6A64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E6A8422C87067900AA6A64 /* ContentView.swift */; };
 		54E6A8452C87067B00AA6A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E6A8442C87067B00AA6A64 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		547746772C871E140007A079 /* ZKCompoments */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ZKCompoments; path = ../ZKCompoments; sourceTree = "<group>"; };
 		54E6A83D2C87067900AA6A64 /* ExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E6A8402C87067900AA6A64 /* ExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAppApp.swift; sourceTree = "<group>"; };
 		54E6A8422C87067900AA6A64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,17 +28,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5477467A2C871EC30007A079 /* ZKCompoments in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		547746782C871EC30007A079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54E6A8342C87067900AA6A64 = {
 			isa = PBXGroup;
 			children = (
+				547746772C871E140007A079 /* ZKCompoments */,
 				54E6A83F2C87067900AA6A64 /* ExampleApp */,
 				54E6A83E2C87067900AA6A64 /* Products */,
+				547746782C871EC30007A079 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +95,9 @@
 			dependencies = (
 			);
 			name = ExampleApp;
+			packageProductDependencies = (
+				547746792C871EC30007A079 /* ZKCompoments */,
+			);
 			productName = ExampleApp;
 			productReference = 54E6A83D2C87067900AA6A64 /* ExampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -346,6 +361,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		547746792C871EC30007A079 /* ZKCompoments */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ZKCompoments;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54E6A8352C87067900AA6A64 /* Project object */;
 }
